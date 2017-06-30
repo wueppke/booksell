@@ -9,6 +9,7 @@ and open the template in the editor.
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="style.css" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript">
@@ -30,9 +31,36 @@ and open the template in the editor.
                         <p>choose or add an author</p>
                         <div class="dropdown">
                             <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">
-                             "Choose"
+                             Choose
                              <span class="caret"></span>
                             </button>
+                            <ul class="dropdown-menu" role="menu">add new author</ul>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4 item">
+                        <i class="fa fa-user"></i>
+                        <h2>Publisher</h2>
+                        <p>choose or add a new publisher</p>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">
+                             Choose
+                             <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">add new publisher</ul>
+                        </div>
+                    </div> 
+                    
+                    <div class="col-md-4 item">
+                        <i class="fa fa-user"></i>
+                        <h2>Book</h2>
+                        <p>choose or add a new book</p>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">
+                             Choose
+                             <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">add new book</ul>
                         </div>
                     </div> 
                     
